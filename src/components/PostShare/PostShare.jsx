@@ -23,7 +23,7 @@ const PostShare = () => {
     <div className="PostShare">
       <img src={ProfileImage} alt="" />
       <div>
-        <input type="text" placeholder="What's happening" />
+        <input type="text" placeholder="Quoi de neuf ?" />
 
         <div className="postOptions">
           <div className="option" style={{ color: "var(--photo)" }}
@@ -38,13 +38,13 @@ const PostShare = () => {
           </div>
           <div className="option" style={{ color: "var(--location)" }}>
             <UilLocationPoint />
-            Location
+            Map
           </div>
           <div className="option" style={{ color: "var(--shedule)" }}>
             <UilSchedule />
-            Shedule
+            Agenda
           </div>
-          <button className="button ps-button">Share</button>
+          <button className="button ps-button">Partager</button>
           <div style={{ display: "none"}}>
             <input type="file" name="my image" ref={imageRef} onChange={onImageChange}/>
           </div>

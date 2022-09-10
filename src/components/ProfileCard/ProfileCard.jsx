@@ -19,7 +19,7 @@ const ProfileCard = () => {
         <div>
           <div className="follow">
             <span>6,890</span>
-            <span>Followings</span>
+            <span>Personnes suivis</span>
           </div>
           <div className="vl"></div>
           <div className="follow">
@@ -29,7 +29,7 @@ const ProfileCard = () => {
         </div>
         <hr />
       </div>
-      <span>My Profile</span>
+      <span>Profil</span>
     </div>
   );
 };
